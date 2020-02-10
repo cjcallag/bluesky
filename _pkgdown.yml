@@ -1,0 +1,10 @@
+destination: docs
+
+url: https://knapply.github.io/bluesky
+
+template:
+  params:
+    bootswatch: cerulean
+    # ganalytics:
+
+reference:
