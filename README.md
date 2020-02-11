@@ -3,6 +3,7 @@
 
   - [Introduction](#introduction)
   - [Installation](#installation)
+  - [Usage](#usage)
 
 <!-- README.Rmd generates README.md. -->
 
@@ -31,5 +32,12 @@ bytes](https://img.shields.io/github/languages/code-size/knapply/bluesky.svg)](h
 
 ``` r
 if (!requireNamespace("remotes", quietly = TRUE)) install.packages("remotes")
+
 remotes::install_github("knapply/bluesky")
+```
+
+## Usage
+
+``` r
+library(bluesky)
 ```
