@@ -23,6 +23,7 @@ Suggests:
     curl,
     knitr,
     sf,
+    tibble,
     testthat (>= 2.1.0),
     rmarkdown
 URL: https://github.com/knapply/bluesky, https://knapply.github.io/bluesky

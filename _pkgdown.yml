@@ -8,3 +8,17 @@ template:
     # ganalytics:
 
 reference:
+  - title: Administrative Boundaries
+    contents:
+    - adm_0_sf
+    - adm_1_sf
+    - adm_2_sf
+    - adm_region_sf
+    
+  - title: Mining and Land Rights
+    contents:
+    - cmcs_licenses_df
+    - cmcs_special_areas_df
+    - eitim_licenses_sf
+    - eitim_companies_df
+
