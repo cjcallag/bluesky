@@ -25,4 +25,8 @@ reference:
   - title: ALAGaC
     contents:
     - alagac_roads_sf
+    
+  - title: China Global Investment Tracker
+    contents:
+    - cgit
 
