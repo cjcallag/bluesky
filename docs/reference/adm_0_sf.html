@@ -133,30 +133,40 @@
     <p><a href='https://data.humdata.org/dataset/mongolia-administrative-boundaries-polygon-polyline'>UN HDX</a></p>
 
     <h2 class="hasAnchor" id="examples"><a class="anchor" href="#examples"></a>Examples</h2>
-    <pre class="examples"><div class='input'><span class='fu'><a href='https://rdrr.io/r/utils/head.html'>head</a></span>(<span class='no'>adm_0_sf</span>)</div><div class='output co'>#&gt; <span style='color: #949494;'># A tibble: 1 x 4</span><span>
+    <pre class="examples"><div class='input'><span class='no'>adm_0_sf</span></div><div class='output co'>#&gt; <span style='color: #949494;'># A tibble: 1 x 4</span><span>
 #&gt;   ADM0_EN  ADM0_MN      ADM0_PCODE geometry
 #&gt;   </span><span style='color: #949494;font-style: italic;'>&lt;chr&gt;</span><span>    </span><span style='color: #949494;font-style: italic;'>&lt;chr&gt;</span><span>        </span><span style='color: #949494;font-style: italic;'>&lt;chr&gt;</span><span>      </span><span style='color: #949494;font-style: italic;'>&lt;list&gt;</span><span>  
 #&gt; </span><span style='color: #BCBCBC;'>1</span><span> Mongolia Monggol Ulus MN         </span><span style='color: #949494;'>&lt;XY&gt;</span><span>    </div><div class='input'>
-<span class='fu'><a href='https://rdrr.io/r/utils/head.html'>head</a></span>(<span class='no'>adm_1_sf</span>)</div><div class='output co'>#&gt; </span><span style='color: #949494;'># A tibble: 6 x 7</span><span>
-#&gt;   ADM0_EN  ADM0_MN      ADM0_PCODE REGION         ADM1_EN    ADM1_PCODE geometry
-#&gt;   </span><span style='color: #949494;font-style: italic;'>&lt;chr&gt;</span><span>    </span><span style='color: #949494;font-style: italic;'>&lt;chr&gt;</span><span>        </span><span style='color: #949494;font-style: italic;'>&lt;chr&gt;</span><span>      </span><span style='color: #949494;font-style: italic;'>&lt;chr&gt;</span><span>          </span><span style='color: #949494;font-style: italic;'>&lt;chr&gt;</span><span>      </span><span style='color: #949494;font-style: italic;'>&lt;chr&gt;</span><span>      </span><span style='color: #949494;font-style: italic;'>&lt;list&gt;</span><span>  
-#&gt; </span><span style='color: #BCBCBC;'>1</span><span> Mongolia Monggol Ulus MN         Central region Darkhan-U… 45         </span><span style='color: #949494;'>&lt;XY&gt;</span><span>    
-#&gt; </span><span style='color: #BCBCBC;'>2</span><span> Mongolia Monggol Ulus MN         Central region Dornogovi  44         </span><span style='color: #949494;'>&lt;XY&gt;</span><span>    
-#&gt; </span><span style='color: #BCBCBC;'>3</span><span> Mongolia Monggol Ulus MN         Central region Dundgovi   48         </span><span style='color: #949494;'>&lt;XY&gt;</span><span>    
-#&gt; </span><span style='color: #BCBCBC;'>4</span><span> Mongolia Monggol Ulus MN         Central region Govisumber 42         </span><span style='color: #949494;'>&lt;XY&gt;</span><span>    
-#&gt; </span><span style='color: #BCBCBC;'>5</span><span> Mongolia Monggol Ulus MN         Central region Omnogovi   46         </span><span style='color: #949494;'>&lt;XY&gt;</span><span>    
-#&gt; </span><span style='color: #BCBCBC;'>6</span><span> Mongolia Monggol Ulus MN         Central region Selenge    43         </span><span style='color: #949494;'>&lt;XY&gt;</span><span>    </div><div class='input'>
-<span class='fu'><a href='https://rdrr.io/r/utils/head.html'>head</a></span>(<span class='no'>adm_2_sf</span>)</div><div class='output co'>#&gt; </span><span style='color: #949494;'># A tibble: 6 x 11</span><span>
-#&gt;   Alt_pcode ADM0_EN ADM0_MN ADM0_PCODE REGION ADM1_EN ADM1_PCODE ADM2_EN ADM2_MN
-#&gt;   </span><span style='color: #949494;font-style: italic;'>&lt;chr&gt;</span><span>     </span><span style='color: #949494;font-style: italic;'>&lt;chr&gt;</span><span>   </span><span style='color: #949494;font-style: italic;'>&lt;chr&gt;</span><span>   </span><span style='color: #949494;font-style: italic;'>&lt;chr&gt;</span><span>      </span><span style='color: #949494;font-style: italic;'>&lt;chr&gt;</span><span>  </span><span style='color: #949494;font-style: italic;'>&lt;chr&gt;</span><span>   </span><span style='color: #949494;font-style: italic;'>&lt;chr&gt;</span><span>      </span><span style='color: #949494;font-style: italic;'>&lt;chr&gt;</span><span>   </span><span style='color: #949494;font-style: italic;'>&lt;chr&gt;</span><span>  
-#&gt; </span><span style='color: #BCBCBC;'>1</span><span> 1107      Mongol… Monggo… MN         Centr… Omnogo… 46         Nomgon  ?????? 
-#&gt; </span><span style='color: #BCBCBC;'>2</span><span> 1108      Mongol… Monggo… MN         Centr… Omnogo… 46         Noyon   ????   
-#&gt; </span><span style='color: #BCBCBC;'>3</span><span> 1112      Mongol… Monggo… MN         Centr… Omnogo… 46         Xu'rmen ?????? 
-#&gt; </span><span style='color: #BCBCBC;'>4</span><span> 1110      Mongol… Monggo… MN         Centr… Omnogo… 46         Xanbogd ???????
-#&gt; </span><span style='color: #BCBCBC;'>5</span><span> 1115      Mongol… Monggo… MN         Centr… Omnogo… 46         Dalanz… ??????…
-#&gt; </span><span style='color: #BCBCBC;'>6</span><span> 0610      Mongol… Monggo… MN         Centr… Dornog… 44         Xatanb… ??????…
-#&gt; </span><span style='color: #949494;'># … with 2 more variables: ADM2_PCODE </span><span style='color: #949494;font-style: italic;'>&lt;dbl&gt;</span><span style='color: #949494;'>, geometry </span><span style='color: #949494;font-style: italic;'>&lt;list&gt;</span><span></div><div class='input'>
-<span class='fu'><a href='https://rdrr.io/r/utils/head.html'>head</a></span>(<span class='no'>adm_region_sf</span>)</div><div class='output co'>#&gt; </span><span style='color: #949494;'># A tibble: 4 x 2</span><span>
+<span class='no'>adm_1_sf</span></div><div class='output co'>#&gt; </span><span style='color: #949494;'># A tibble: 22 x 7</span><span>
+#&gt;    ADM0_EN  ADM0_MN      ADM0_PCODE REGION        ADM1_EN    ADM1_PCODE geometry
+#&gt;    </span><span style='color: #949494;font-style: italic;'>&lt;chr&gt;</span><span>    </span><span style='color: #949494;font-style: italic;'>&lt;chr&gt;</span><span>        </span><span style='color: #949494;font-style: italic;'>&lt;chr&gt;</span><span>      </span><span style='color: #949494;font-style: italic;'>&lt;chr&gt;</span><span>         </span><span style='color: #949494;font-style: italic;'>&lt;chr&gt;</span><span>      </span><span style='color: #949494;font-style: italic;'>&lt;chr&gt;</span><span>      </span><span style='color: #949494;font-style: italic;'>&lt;list&gt;</span><span>  
+#&gt; </span><span style='color: #BCBCBC;'> 1</span><span> Mongolia Monggol Ulus MN         Central regi… Darkhan-U… 45         </span><span style='color: #949494;'>&lt;XY&gt;</span><span>    
+#&gt; </span><span style='color: #BCBCBC;'> 2</span><span> Mongolia Monggol Ulus MN         Central regi… Dornogovi  44         </span><span style='color: #949494;'>&lt;XY&gt;</span><span>    
+#&gt; </span><span style='color: #BCBCBC;'> 3</span><span> Mongolia Monggol Ulus MN         Central regi… Dundgovi   48         </span><span style='color: #949494;'>&lt;XY&gt;</span><span>    
+#&gt; </span><span style='color: #BCBCBC;'> 4</span><span> Mongolia Monggol Ulus MN         Central regi… Govisumber 42         </span><span style='color: #949494;'>&lt;XY&gt;</span><span>    
+#&gt; </span><span style='color: #BCBCBC;'> 5</span><span> Mongolia Monggol Ulus MN         Central regi… Omnogovi   46         </span><span style='color: #949494;'>&lt;XY&gt;</span><span>    
+#&gt; </span><span style='color: #BCBCBC;'> 6</span><span> Mongolia Monggol Ulus MN         Central regi… Selenge    43         </span><span style='color: #949494;'>&lt;XY&gt;</span><span>    
+#&gt; </span><span style='color: #BCBCBC;'> 7</span><span> Mongolia Monggol Ulus MN         Central regi… To'v       41         </span><span style='color: #949494;'>&lt;XY&gt;</span><span>    
+#&gt; </span><span style='color: #BCBCBC;'> 8</span><span> Mongolia Monggol Ulus MN         Eastern regi… Dornod     21         </span><span style='color: #949494;'>&lt;XY&gt;</span><span>    
+#&gt; </span><span style='color: #BCBCBC;'> 9</span><span> Mongolia Monggol Ulus MN         Eastern regi… Hentii     23         </span><span style='color: #949494;'>&lt;XY&gt;</span><span>    
+#&gt; </span><span style='color: #BCBCBC;'>10</span><span> Mongolia Monggol Ulus MN         Eastern regi… Sukhbaatar 22         </span><span style='color: #949494;'>&lt;XY&gt;</span><span>    
+#&gt; </span><span style='color: #949494;'># … with 12 more rows</span><span></div><div class='input'>
+<span class='no'>adm_2_sf</span></div><div class='output co'>#&gt; </span><span style='color: #949494;'># A tibble: 339 x 11</span><span>
+#&gt;    Alt_pcode ADM0_EN ADM0_MN ADM0_PCODE REGION ADM1_EN ADM1_PCODE ADM2_EN
+#&gt;    </span><span style='color: #949494;font-style: italic;'>&lt;chr&gt;</span><span>     </span><span style='color: #949494;font-style: italic;'>&lt;chr&gt;</span><span>   </span><span style='color: #949494;font-style: italic;'>&lt;chr&gt;</span><span>   </span><span style='color: #949494;font-style: italic;'>&lt;chr&gt;</span><span>      </span><span style='color: #949494;font-style: italic;'>&lt;chr&gt;</span><span>  </span><span style='color: #949494;font-style: italic;'>&lt;chr&gt;</span><span>   </span><span style='color: #949494;font-style: italic;'>&lt;chr&gt;</span><span>      </span><span style='color: #949494;font-style: italic;'>&lt;chr&gt;</span><span>  
+#&gt; </span><span style='color: #BCBCBC;'> 1</span><span> 1107      Mongol… Monggo… MN         Centr… Omnogo… 46         Nomgon 
+#&gt; </span><span style='color: #BCBCBC;'> 2</span><span> 1108      Mongol… Monggo… MN         Centr… Omnogo… 46         Noyon  
+#&gt; </span><span style='color: #BCBCBC;'> 3</span><span> 1112      Mongol… Monggo… MN         Centr… Omnogo… 46         Xu'rmen
+#&gt; </span><span style='color: #BCBCBC;'> 4</span><span> 1110      Mongol… Monggo… MN         Centr… Omnogo… 46         Xanbogd
+#&gt; </span><span style='color: #BCBCBC;'> 5</span><span> 1115      Mongol… Monggo… MN         Centr… Omnogo… 46         Dalanz…
+#&gt; </span><span style='color: #BCBCBC;'> 6</span><span> 0610      Mongol… Monggo… MN         Centr… Dornog… 44         Xatanb…
+#&gt; </span><span style='color: #BCBCBC;'> 7</span><span> 1101      Mongol… Monggo… MN         Centr… Omnogo… 46         Bayand…
+#&gt; </span><span style='color: #BCBCBC;'> 8</span><span> 0614      Mongol… Monggo… MN         Centr… Dornog… 44         Zamyn …
+#&gt; </span><span style='color: #BCBCBC;'> 9</span><span> 0611      Mongol… Monggo… MN         Centr… Dornog… 44         Xo'vsg…
+#&gt; </span><span style='color: #BCBCBC;'>10</span><span> 1104      Mongol… Monggo… MN         Centr… Omnogo… 46         Gurvan…
+#&gt; </span><span style='color: #949494;'># … with 329 more rows, and 3 more variables: ADM2_MN </span><span style='color: #949494;font-style: italic;'>&lt;chr&gt;</span><span style='color: #949494;'>, ADM2_PCODE </span><span style='color: #949494;font-style: italic;'>&lt;dbl&gt;</span><span style='color: #949494;'>,
+#&gt; #   geometry </span><span style='color: #949494;font-style: italic;'>&lt;list&gt;</span><span></div><div class='input'>
+<span class='no'>adm_region_sf</span></div><div class='output co'>#&gt; </span><span style='color: #949494;'># A tibble: 4 x 2</span><span>
 #&gt;   REGION         geometry
 #&gt;   </span><span style='color: #949494;font-style: italic;'>&lt;chr&gt;</span><span>          </span><span style='color: #949494;font-style: italic;'>&lt;list&gt;</span><span>  
 #&gt; </span><span style='color: #BCBCBC;'>1</span><span> Central region </span><span style='color: #949494;'>&lt;XY&gt;</span><span>    
