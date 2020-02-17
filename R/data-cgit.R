@@ -9,7 +9,7 @@
 #' @references 
 #' * The American Enterprise Institute and The Heritage Foundation
 #' 
-#' @source https://www.aei.org/china-global-investment-tracker/
+#' @source [AEI](https://www.aei.org/china-global-investment-tracker/)
 #' 
 #' @examples 
 #' cgit_investments_df

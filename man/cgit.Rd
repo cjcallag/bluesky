@@ -10,7 +10,7 @@
 \title{China Global Investment Tracker}
 \format{An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 1635 rows and 12 columns.}
 \source{
-https://www.aei.org/china-global-investment-tracker/
+\href{https://www.aei.org/china-global-investment-tracker/}{AEI}
 }
 \usage{
 cgit_investments_df
