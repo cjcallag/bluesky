@@ -36,7 +36,7 @@ for (i in seq_along(commod_queries)) {
       commod_codes = commod_queries[[i]]
     ),
     error = function(e) {
-      message(sprintf("query # %d failed...\n", i))
+      message(sprintf("\nquery # %d failed...\n", i))
       # message(e)
       failures <- c(failures, i)
       NULL
