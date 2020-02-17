@@ -129,7 +129,13 @@
     <p><a href='https://e-reporting.eitimongolia.mn'>EITIM E-Reporting System</a></p>
 
     <h2 class="hasAnchor" id="examples"><a class="anchor" href="#examples"></a>Examples</h2>
-    <pre class="examples"><div class='input'><span class='fu'><a href='https://rdrr.io/r/utils/head.html'>head</a></span>(<span class='no'>eitim_licenses_sf</span>)</div><div class='output co'>#&gt; <span style='color: #949494;'># A tibble: 6 x 14</span><span>
+    <pre class="examples"><div class='input'><span class='fu'><a href='https://rdrr.io/r/utils/head.html'>head</a></span>(<span class='no'>eitim_licenses_sf</span>)</div><div class='output co'>#&gt; Simple feature collection with 6 features and 13 fields
+#&gt; geometry type:  POLYGON
+#&gt; dimension:      XY
+#&gt; bbox:           xmin: 101.18 ymin: 43.2075 xmax: 114.1038 ymax: 48.24495
+#&gt; epsg (SRID):    4326
+#&gt; proj4string:    +proj=longlat +datum=WGS84 +no_defs
+#&gt; <span style='color: #949494;'># A tibble: 6 x 14</span><span>
 #&gt;   code  sum_name area_name area_hectares company_name company_registe…
 #&gt;   </span><span style='color: #949494;font-style: italic;'>&lt;chr&gt;</span><span> </span><span style='color: #949494;font-style: italic;'>&lt;chr&gt;</span><span>    </span><span style='color: #949494;font-style: italic;'>&lt;chr&gt;</span><span>             </span><span style='color: #949494;font-style: italic;'>&lt;dbl&gt;</span><span> </span><span style='color: #949494;font-style: italic;'>&lt;chr&gt;</span><span>        </span><span style='color: #949494;font-style: italic;'>&lt;chr&gt;</span><span>           
 #&gt; </span><span style='color: #BCBCBC;'>1</span><span> 4613  Гурвант… Gun             </span><span style='text-decoration: underline;'>492</span><span>816  </span><span style='color: #949494;'>"</span><span>UMNIIN GOV… 3623955         
@@ -140,7 +146,7 @@
 #&gt; </span><span style='color: #BCBCBC;'>6</span><span> 6313  Бүрэгха… Derst xo…      7</span><span style='text-decoration: underline;'>410</span><span>804. </span><span style='color: #949494;'>"</span><span>Ej Erdene … 6152392         
 #&gt; </span><span style='color: #949494;'># … with 8 more variables: application_date </span><span style='color: #949494;font-style: italic;'>&lt;date&gt;</span><span style='color: #949494;'>, given_date </span><span style='color: #949494;font-style: italic;'>&lt;date&gt;</span><span style='color: #949494;'>,
 #&gt; #   expired_date </span><span style='color: #949494;font-style: italic;'>&lt;date&gt;</span><span style='color: #949494;'>, license_number </span><span style='color: #949494;font-style: italic;'>&lt;chr&gt;</span><span style='color: #949494;'>, mineral_code </span><span style='color: #949494;font-style: italic;'>&lt;chr&gt;</span><span style='color: #949494;'>,
-#&gt; #   mineral_name </span><span style='color: #949494;font-style: italic;'>&lt;chr&gt;</span><span style='color: #949494;'>, mineral_name_en </span><span style='color: #949494;font-style: italic;'>&lt;chr&gt;</span><span style='color: #949494;'>, geometry </span><span style='color: #949494;font-style: italic;'>&lt;list&gt;</span><span></div><div class='input'>
+#&gt; #   mineral_name </span><span style='color: #949494;font-style: italic;'>&lt;chr&gt;</span><span style='color: #949494;'>, mineral_name_en </span><span style='color: #949494;font-style: italic;'>&lt;chr&gt;</span><span style='color: #949494;'>, geometry </span><span style='color: #949494;font-style: italic;'>&lt;POLYGON [°]&gt;</span><span></div><div class='input'>
 <span class='fu'><a href='https://rdrr.io/r/utils/head.html'>head</a></span>(<span class='no'>eitim_companies_df</span>)</div><div class='output co'>#&gt; </span><span style='color: #949494;'># A tibble: 6 x 5</span><span>
 #&gt;    year company_register_number company_id id    company_name 
 #&gt;   </span><span style='color: #949494;font-style: italic;'>&lt;int&gt;</span><span> </span><span style='color: #949494;font-style: italic;'>&lt;chr&gt;</span><span>                   </span><span style='color: #949494;font-style: italic;'>&lt;chr&gt;</span><span>      </span><span style='color: #949494;font-style: italic;'>&lt;chr&gt;</span><span> </span><span style='color: #949494;font-style: italic;'>&lt;chr&gt;</span><span>        

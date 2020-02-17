@@ -37,7 +37,6 @@ for (i in seq_along(commod_queries)) {
     ),
     error = function(e) {
       message(sprintf("\nquery # %d failed...\n", i))
-      # message(e)
       failures <- c(failures, i)
       NULL
     }
@@ -47,4 +46,3 @@ for (i in seq_along(commod_queries)) {
 comtrade <- data.table::rbindlist(init)
 
 usethis::use_data(comtrade, overwrite = TRUE)
-

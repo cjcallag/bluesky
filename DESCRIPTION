@@ -28,7 +28,7 @@ Suggests:
     covr,
     curl,
     knitr,
-    sf,
+    ggplot2,
     testthat (>= 2.1.0),
     rmarkdown
 URL: https://github.com/knapply/bluesky, https://knapply.github.io/bluesky
