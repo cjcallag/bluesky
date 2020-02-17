@@ -24,13 +24,13 @@ adm_region_sf
 Mongolia administrative level 0 (country), 1 (aimag), 2 (soum), and regional boundary polygons and lines, and administrative gazeteer.
 }
 \examples{
-head(adm_0_sf)
+adm_0_sf
 
-head(adm_1_sf)
+adm_1_sf
 
-head(adm_2_sf)
+adm_2_sf
 
-head(adm_region_sf)
+adm_region_sf
 
 }
 \author{

@@ -5,13 +5,13 @@
 #' @template author-bk
 #' 
 #' @examples 
-#' head(adm_0_sf)
+#' adm_0_sf
 #' 
-#' head(adm_1_sf)
+#' adm_1_sf
 #' 
-#' head(adm_2_sf)
+#' adm_2_sf
 #' 
-#' head(adm_region_sf)
+#' adm_region_sf
 #'
 #' @source [UN HDX](https://data.humdata.org/dataset/mongolia-administrative-boundaries-polygon-polyline)
 "adm_0_sf"
