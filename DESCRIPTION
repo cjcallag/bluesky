@@ -4,9 +4,13 @@ Version: 0.0.1
 Authors@R:
         c(
             person("Brendan", "Knapp", 
-                    email = "brendan.g.knapp@gmail.com", 
+                    email = "brendan.g.knapp@nps.edu", 
                     role = c("aut", "cre"),
                     comment = c(ORCID = "0000-0003-3284-4972"))
+            ,
+            person(given = "Christopher", family = "Callaghan",
+                   role = "aut",
+                   email = "cjcallag@nps.edu")
             # , # ADD PERSON TEMPLATE
             # person("<LAST NAME>", "<FIRST NAME>", 
             #        email = "<EMAIL>", 
