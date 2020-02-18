@@ -29,4 +29,8 @@ reference:
   - title: China Global Investment Tracker
     contents:
     - cgit
+    
+  - title: World Bank WDI
+    contents:
+    - world_bank_df
 
