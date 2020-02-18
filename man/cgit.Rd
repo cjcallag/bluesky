@@ -22,7 +22,7 @@ cgit_troubled_transactions_df
 cgit_combined_df
 }
 \description{
-\strong{The China Global Investment Tracker (CGIT) is the only comprehensive public data set covering China’s global investment and construction, which are documented both separately and together. Inaugurated in 2005, the CGIT now includes over 3,300 large transactions across energy, transportation, real estate, and other industries, as well as 300 troubled transactions. The full list, with the amount, Chinese parent company, host country, and sector, is available for public use with the proper citation. The tracker is published by the American Enterprise Institute.}
+\emph{The China Global Investment Tracker (CGIT) is the only comprehensive public data set covering China’s global investment and construction, which are documented both separately and together. Inaugurated in 2005, the CGIT now includes over 3,300 large transactions across energy, transportation, real estate, and other industries, as well as 300 troubled transactions. The full list, with the amount, Chinese parent company, host country, and sector, is available for public use with the proper citation. The tracker is published by the American Enterprise Institute.}
 }
 \examples{
 cgit_investments_df
@@ -37,5 +37,8 @@ cgit_combined_df
 \itemize{
 \item The American Enterprise Institute and The Heritage Foundation
 }
+}
+\author{
+Brendan Knapp \email{brendan.g.knapp@nps.edu}
 }
 \keyword{datasets}
