@@ -25,15 +25,18 @@ res <- melt(init, measure.vars = year_cols, variable.name = "year",
               ][, year := as.integer(year)
                 ]
 
+setnames(res, gsub(" ", "_", tolower(names(res))))
+
+res[, country_name := fifelse(country_name == "Korea, Dem. People’s Rep.",
+                              "Korea, Dem. People's Rep.",
+                              country_name)]
+
 chr_cols <- names(res)[vapply(res, is.character, logical(1L))]
 res[, (chr_cols) := lapply(.SD, function(.x) {
   factor(.x, levels = unique(.x))
   }), .SDcols = chr_cols]
 
-setnames(res, gsub(" ", "_", tolower(names(res))))
-
 
 world_bank_df <- tibble::as_tibble(res)
-
 
 usethis::use_data(world_bank_df, overwrite = TRUE)
