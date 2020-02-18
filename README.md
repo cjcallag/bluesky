@@ -7,10 +7,10 @@
 
 <!-- README.Rmd generates README.md. -->
 
+<!-- README.Rmd generates README.md. -->
+
 <!-- badges: start -->
 
-[![R build
-status](https://github.com/knapply/bluesky/workflows/R-CMD-check/badge.svg)](https://github.com/knapply/bluesky/actions?workflow=R-CMD-check)
 [![AppVeyor build
 status](https://ci.appveyor.com/api/projects/status/github/knapply/bluesky?branch=master&svg=true)](https://ci.appveyor.com/project/knapply/bluesky)
 [![Travis-CI Build
@@ -21,9 +21,12 @@ coverage](https://codecov.io/gh/knapply/bluesky/branch/master/graph/badge.svg)](
 commit](https://img.shields.io/github/last-commit/knapply/bluesky.svg)](https://github.com/knapply/bluesky/commits/master)
 [![License: GPL
 v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
-[![Depends](https://img.shields.io/badge/Depends-GNU_R%3E=3.5-blue.svg)](https://www.r-project.org/)
+[![Depends](https://img.shields.io/badge/Depends-GNU_R%3E=3.3-blue.svg)](https://www.r-project.org/)
+[![CRAN
+status](https://www.r-pkg.org/badges/version/bluesky)](https://cran.r-project.org/package=bluesky)
 [![GitHub code size in
 bytes](https://img.shields.io/github/languages/code-size/knapply/bluesky.svg)](https://github.com/knapply/bluesky)
+[![HitCount](http://hits.dwyl.io/knapply/bluesky.svg)](http://hits.dwyl.io/knapply/bluesky)
 <!-- badges: end -->
 
 ## Introduction
